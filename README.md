@@ -3,7 +3,7 @@
 
 #### # Adding new code update / push
 This will update your branch with your code that has been updated, it will only add new code or remove the code that you had remove in Text Editor not uploading all files but but only updated code/files
-1. ***git add .*** (the . means adding all files that has changed)
+>1. ***git add .*** (the . means adding all files that has changed)
 
 2. ***git commit -m 'Commit message explaining what change you do to the code'***
 
