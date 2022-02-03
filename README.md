@@ -18,7 +18,5 @@ This will update your current branch content with master or from branch or whate
 1. git rebase (master / from branch name ~~without bracket~~)
 
 
-I use this on BitBucket 
-
 
 
