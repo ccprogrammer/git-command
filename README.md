@@ -15,6 +15,5 @@ This will update your branch with your code that has been updated, it will only 
 3. ***git push origin*** or ***git push origin (your current branch name)***
 
 
-#### 
 
 
