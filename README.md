@@ -19,6 +19,11 @@ This will update your current branch content with master or from branch or whate
 >2. ***git add .***
 >3. ***git push*** or ***git push origin*** or ***git push origin (your current branch name)***
 
+#### # After cloning
+Run this in flutter terminal (Administrator)
+>1. flutter pub cache repair 
+>2. flutter pub get
+
 
 
 
