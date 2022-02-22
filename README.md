@@ -1,6 +1,12 @@
 ## JUST SOME REMINDER NOTE 
-#### # Building apk in cloned app
-First chang the **keystore.properties** path 
+#### # After cloning repo
+in **gradle.properties** path
+>D:\Keep Out\Asal Ngoding\Development\WORKSPACE\Flutter\one-smile\android\gradle.properties
+add or remove or change the path to you jdk path 
+>org.gradle.java.home=C:/Program Files/Java/jdk-17.0.1
+
+#### # Building apk in cloned repo
+First change the **keystore.properties** path 
 >D:\your-app-dir\android\keystore.properties
 
 inside **keystore.properties** change the storeFile= path with **D:\your-app-dir\android\keystore.properties**
