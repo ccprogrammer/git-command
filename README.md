@@ -1,3 +1,13 @@
+## JUST SOME REMINDER NOTE 
+#### # Building apk in cloned app
+First chang the **keystore.properties** path 
+>D:\your-app-dir\android\keystore.properties
+
+inside **keystore.properties** change the storeFile= path with **D:\your-app-dir\android\keystore.properties**
+
+
+## GIT COMMAND
+
 #### # Cloning repo will only clone the master and cannot choose spesific branch to clone but you can choose spesific branch with command
 >1. ***git checkout (branch name ~~without bracket~~)***
 
