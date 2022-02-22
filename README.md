@@ -55,7 +55,8 @@ This will update your current branch content with master or from branch or whate
 >3. ***git push*** 
 
 
-
+#### # Undo all **Modified** but not removing new folder
+>1. git checkout -- .
 
 
 
