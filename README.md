@@ -26,6 +26,13 @@ in **Administrator CMD** you can just type this command to enter project dir qui
 
 ## GIT COMMAND
 
+#### # Fact about branch
+1. branch will copy the commit history of the branch that is selected to be copy and the new branch is not sub branch of the branch that are copied before but it's sub branch from master
+2. if you want to work on other task just checkout to the branch that are doing the task not merging the task branch to your branch 
+3. 
+
+
+
 #### # Cloning repo will only clone the master and cannot choose spesific branch to clone but you can choose spesific branch with command
 >1. ***git checkout (branch name ~~without bracket~~)***
 
@@ -46,6 +53,8 @@ This will update your current branch content with master or from branch or whate
 >1. ***git merge origin/(master / from branch name ~~without bracket~~)*** 
 >2. ***git add .***
 >3. ***git push*** 
+
+
 
 
 
