@@ -12,6 +12,13 @@ First change the **keystore.properties** path
 inside **keystore.properties** change the storeFile= path with **D:\your-app-dir\android\keystore.properties**
 
 
+
+<br />
+
+---
+
+<br />
+
 ## GIT COMMAND
 
 #### # Cloning repo will only clone the master and cannot choose spesific branch to clone but you can choose spesific branch with command
