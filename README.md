@@ -27,9 +27,9 @@ in **Administrator CMD** you can just type this command to enter project dir qui
 ## GIT COMMAND
 
 #### # Fact about branch
-1. branch will copy the commit history of the branch that is selected to be copy and the new branch is not sub branch of the branch that are copied before but it's sub branch from master
+1. branch will clone the commit history of the branch that is selected to be clone and the new branch is not sub branch of the branch that are cloned before but it's sub branch from master but the new branch has the commit history from the old branch that are selected
 2. if you want to work on other task just checkout to the branch that are doing the task not merging the task branch to your branch 
-3. 
+3. branch cannot be rename instead of renaming just do this clone the branch name as you like and delete the old branch
 
 
 
