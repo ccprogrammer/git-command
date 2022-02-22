@@ -8,10 +8,15 @@ add or remove or change the path to you jdk path
 #### # Building apk in cloned repo
 First change the **keystore.properties** path 
 >D:\your-app-dir\android\keystore.properties
-
 inside **keystore.properties** change the storeFile= path with **D:\your-app-dir\android\keystore.properties**
 
+#### # After cloning
+Run this in flutter terminal (Administrator)
+>1. flutter pub cache repair 
+>2. flutter pub get
 
+in **Administrator CMD** you can just type this command to enter project dir quick by copy you project dir path
+>cd D:\project dir
 
 <br />
 
@@ -42,10 +47,7 @@ This will update your current branch content with master or from branch or whate
 >2. ***git add .***
 >3. ***git push*** 
 
-#### # After cloning
-Run this in flutter terminal (Administrator)
->1. flutter pub cache repair 
->2. flutter pub get
+
 
 
 
