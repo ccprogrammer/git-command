@@ -66,7 +66,7 @@ This will update your current branch content with master or from branch or whate
 
 <br />
 
-## Changing FLutter SDK / version easy
+## Changing Flutter SDK / version easy
 
 #### # Change Channel
 Flutter has 4 channel stable(the latest stable version), master(on progress development like -pree version), beta, and dev
