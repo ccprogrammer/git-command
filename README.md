@@ -1,4 +1,4 @@
-## JUST SOME REMINDER NOTE 
+# JUST SOME REMINDER NOTE 
 #### # After cloning repo
 in **gradle.properties** path
 >D:\Keep Out\Asal Ngoding\Development\WORKSPACE\Flutter\one-smile\android\gradle.properties
@@ -57,6 +57,24 @@ This will update your current branch content with master or from branch or whate
 
 #### # Undo all **Modified** but not removing new folder
 >1. git checkout -- .
+
+
+
+<br />
+
+---
+
+<br />
+
+## Changing FLutter SDK / version easy
+
+#### # Change Channel
+Flutter has 4 channel stable(the latest stable version), master(on progress development like -pree version), beta, and dev
+>1. flutter channel (will show the list of channel)
+>2. flutter channel (channel name)
+>3. flutter doctor (to perform download and compile for the selected version)
+
+
 
 
 
