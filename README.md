@@ -81,6 +81,7 @@ Run this in flutter terminal (Administrator)
 >2. flutter pub get
 
 in **Administrator CMD** you can just type this command to enter project dir quick by copy you project dir path
+>d:
 >cd D:\project dir
 
 
