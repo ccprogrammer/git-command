@@ -78,7 +78,7 @@ Flutter has 4 channel stable(the latest stable version), master(on progress deve
 >1. flutter upgrade (this command will upgrade the latest version your current channel)
 
 #### # Upgrade/downgrade by changin repository
->1. locate flutter directory
+>1. locate flutter directory, for example **C:\flutter**
 >2. run git bash
 >3. git checkout (flutter version) / example git checkout 1.22.6 / example git checkout 2.10.2
 >4. flutter doctor (to perform download and compile for the selected version)
