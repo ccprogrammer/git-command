@@ -72,7 +72,7 @@ This will update your current branch content with master or from branch or whate
 Flutter has 4 channel stable(the latest stable version), master(on progress development like -pree version), beta, and dev
 >1. flutter channel (will show the list of channel)
 >2. flutter channel (channel name)
->3. flutter doctor (to perform download and compile for the selected version)
+>3. flutter upgrade
 
 #### # Upgrading sdk
 >1. flutter upgrade (this command will upgrade the latest version your current channel)
