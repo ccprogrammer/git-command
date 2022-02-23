@@ -1,37 +1,9 @@
-# JUST SOME REMINDER NOTE 
-#### # After cloning repo
-in **gradle.properties** path
->D:\Keep Out\Asal Ngoding\Development\WORKSPACE\Flutter\one-smile\android\gradle.properties
-add or remove or change the path to you jdk path 
->org.gradle.java.home=C:/Program Files/Java/jdk-17.0.1
-
-#### # Building apk in cloned repo
-First change the **keystore.properties** path 
->D:\your-app-dir\android\keystore.properties
-inside **keystore.properties** change the storeFile= path with **D:\your-app-dir\android\keystore.properties**
-
-#### # After cloning
-Run this in flutter terminal (Administrator)
->1. flutter pub cache repair 
->2. flutter pub get
-
-in **Administrator CMD** you can just type this command to enter project dir quick by copy you project dir path
->cd D:\project dir
-
-<br />
-
----
-
-<br />
-
-## GIT COMMAND
+# GIT COMMAND
 
 #### # Fact about branch
 1. branch will clone the commit history of the branch that is selected to be clone and the new branch is not sub branch of the branch that are cloned before but it's sub branch from master but the new branch has the commit history from the old branch that are selected
 2. if you want to work on other task just checkout to the branch that are doing the task not merging the task branch to your branch 
 3. branch cannot be rename instead of renaming just do this clone the branch name as you like and delete the old branch
-
-
 
 #### # Cloning repo will only clone the master and cannot choose spesific branch to clone but you can choose spesific branch with command
 >1. ***git checkout (branch name ~~without bracket~~)***
@@ -66,7 +38,13 @@ This will update your current branch content with master or from branch or whate
 
 <br />
 
-## Changing Flutter SDK / version easy
+# FLUTTER
+
+<br />
+
+## Upgrading/Downgrading flutter sdk/version
+
+<br />
 
 #### # Change Channel
 Flutter has 4 channel stable(the latest stable version), master(on progress development like -pree version), beta, and dev
@@ -83,7 +61,30 @@ Flutter has 4 channel stable(the latest stable version), master(on progress deve
 >3. git checkout (flutter version) / example git checkout 1.22.6 / example git checkout 2.10.2
 >4. flutter doctor (to perform download and compile for the selected version)
 
+<br />
 
+## Things to do after cloning repo to prevent error
+
+<br />
+
+#### # Gradle problem
+in **gradle.properties** path
+>D:\Keep Out\Asal Ngoding\Development\WORKSPACE\Flutter\one-smile\android\gradle.properties
+add or remove or change the path to you jdk path 
+>org.gradle.java.home=C:/Program Files/Java/jdk-17.0.1
+
+#### # Building apk in cloned repo
+First change the **keystore.properties** path 
+>D:\your-app-dir\android\keystore.properties
+inside **keystore.properties** change the storeFile= path with **D:\your-app-dir\android\keystore.properties**
+
+#### # Things to do to remove red highlight in new opened cloned repo
+Run this in flutter terminal (Administrator)
+>1. flutter pub cache repair 
+>2. flutter pub get
+
+in **Administrator CMD** you can just type this command to enter project dir quick by copy you project dir path
+>cd D:\project dir
 
 
 
