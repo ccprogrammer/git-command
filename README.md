@@ -44,8 +44,6 @@ This will update your current branch content with master or from branch or whate
 
 ## Upgrading/Downgrading flutter sdk/version
 
-<br />
-
 #### # Change Channel
 Flutter has 4 channel stable(the latest stable version), master(on progress development like -pree version), beta, and dev
 >1. flutter channel (will show the list of channel)
@@ -65,7 +63,6 @@ Flutter has 4 channel stable(the latest stable version), master(on progress deve
 
 ## Things to do after cloning repo to prevent error
 
-<br />
 
 #### # Gradle problem
 in **gradle.properties** path
