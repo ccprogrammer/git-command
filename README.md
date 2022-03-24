@@ -22,7 +22,7 @@ After you move to spesific branch you choose, all the code/files in your Text Ed
 
 #### # Update your current Branch with master / from branch name
 This will update your current branch content with master or from branch or whatever branch you choose
->1. ***git merge origin/(master / from branch name ~~without bracket~~)*** 
+>1. ***git merge/rebase origin/(master / from branch name ~~without bracket~~)*** 
 >2. ***git add .***
 >3. ***git push*** 
 
