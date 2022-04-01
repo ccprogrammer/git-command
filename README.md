@@ -88,6 +88,37 @@ in **Administrator CMD** you can just type this command to enter project dir qui
 >cd D:\project dir
 
 
+## OneSmile
+
+
+#### # Deeplink
+>1. Add this code in routes with the widget constructor filled with settings.arguments so when pushNamed called and arguments: ... is filled it will pass to the constructor
+```
+ case '/surveyPage':
+        return MaterialPageRoute(
+            builder: (context) => SurveyConsentPage(
+                  languageCode: settings.arguments,
+                ));
+        break;
+```
+>2. Make Function in helper 
+```
+  toSurvey({String languageCode}) async {
+    return Navigator.of(context).pushNamed(
+      '/surveyPage',
+      arguments: languageCode,
+    );
+  }
+```
+>3. Add switch case in deeplink, here if languageCode is 'id' it will add arguments with 'id' and automatically pass it to the constructor languageCode: because languageCode: is filled with settings.arguments.
+```
+        case "survei":
+          return toSurvey(languageCode: 'id');
+          break;
+        case "survey":
+          return toSurvey(languageCode: 'en');
+          break;
+```
 
 
 
