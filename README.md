@@ -76,7 +76,7 @@ add or remove or change the path to you jdk path
 #### # Building apk in cloned repo
 First change the **keystore.properties** path 
 >D:\your-app-dir\android\keystore.properties
-inside **keystore.properties** change the storeFile= path with **D:\your-app-dir\android\app\keystore.jks**
+>inside **keystore.properties** change the storeFile= path with **D:\your-app-dir\android\app\keystore.jks**
 
 #### # Things to do to remove red highlight in new opened cloned repo
 Run this in flutter terminal (Administrator)
