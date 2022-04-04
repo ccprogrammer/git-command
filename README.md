@@ -69,14 +69,14 @@ Flutter has 4 channel stable(the latest stable version), master(on progress deve
 
 #### # Gradle problem
 in **gradle.properties** path
->D:\Keep Out\Asal Ngoding\Development\WORKSPACE\Flutter\one-smile\android\gradle.properties
+>1. D:\Keep Out\Asal Ngoding\Development\WORKSPACE\Flutter\one-smile\android\gradle.properties
 add or remove or change the path to you jdk path 
->org.gradle.java.home=C:/Program Files/Java/jdk-17.0.1
+>2. org.gradle.java.home=C:/Program Files/Java/jdk-17.0.1
 
 #### # Building apk in cloned repo
 First change the **keystore.properties** path 
->D:\your-app-dir\android\keystore.properties
->inside **keystore.properties** change the storeFile= path with **D:\your-app-dir\android\app\keystore.jks**
+>1. D:\your-app-dir\android\keystore.properties
+>2. inside **keystore.properties** change the storeFile= path with **D:\your-app-dir\android\app\keystore.jks**
 
 #### # Things to do to remove red highlight in new opened cloned repo
 Run this in flutter terminal (Administrator)
