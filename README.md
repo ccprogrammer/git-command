@@ -71,7 +71,7 @@ Flutter has 4 channel stable(the latest stable version), master(on progress deve
 in **gradle.properties** path
 >1. D:\Keep Out\Asal Ngoding\Development\WORKSPACE\Flutter\one-smile\android\gradle.properties
 add or remove or change the path to you jdk path 
->2. org.gradle.java.home=C:/Program Files/Java/jdk-17.0.1
+>2. org.gradle.java.home=C:/Program Files/Java/jdk-16.0.2
 
 #### # Building apk in cloned repo
 First change the **keystore.properties** path 
