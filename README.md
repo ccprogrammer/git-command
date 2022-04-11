@@ -55,6 +55,13 @@ Annoying ':' after running some command to cancel it just enter
 
 ```
 
+#### # Cloning + remote
+1. Choose which folder to save the cloned repo
+2. Right click in the folder and choose git bash
+3. run command: `git clone (repo/remote url)`
+
+![image](https://user-images.githubusercontent.com/90954993/162659441-36a96723-517b-4413-a509-a54a4e139d7f.png)
+
 #### # Cloning repo will only clone the master and cannot choose spesific branch to clone but you can choose spesific branch with command
 ```git checkout (branch name ~~without bracket~~)```
 
