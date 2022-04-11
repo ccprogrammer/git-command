@@ -70,7 +70,7 @@ This will update your current branch content with master or from branch or whate
 #### # Update branch if your branch have been updated by another user
 This will update your code with new code that another user write to your branch
 
-```1. git pull```
+```git pull```
 
 
 
