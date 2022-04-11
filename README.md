@@ -61,6 +61,10 @@ Annoying ':' after running some command to cancel it just enter
 #### # Forking Git Repository
 What is forking? it is copying other people repo with all the history to our repo it's just like making new repo but the repo is from other people repo. To do it just press 'Fork' in the repo you want to fork
 
+#### # Add new branch from Github Website
+![image](https://user-images.githubusercontent.com/90954993/162657746-d4e99e72-5b77-403b-98f5-fcdb13f18af1.png)
+
+
 #### # Adding new code update / push
 This will update your branch with your code that has been updated, it will only add new code or remove the code that you had remove in Text Editor not uploading all files but but only updated code/files
 ```
