@@ -58,6 +58,9 @@ Annoying ':' after running some command to cancel it just enter
 #### # Cloning repo will only clone the master and cannot choose spesific branch to clone but you can choose spesific branch with command
 ```git checkout (branch name ~~without bracket~~)```
 
+#### # Forking Git Repository
+What is forking? it is copying other people repo with all the history to our repo it's just like making new repo but the repo is from other people repo. To do it just press 'Fork' in the repo you want to fork
+
 #### # Adding new code update / push
 This will update your branch with your code that has been updated, it will only add new code or remove the code that you had remove in Text Editor not uploading all files but but only updated code/files
 ```
