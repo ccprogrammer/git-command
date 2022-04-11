@@ -24,10 +24,10 @@ Delete Local Branch
 
 Delete Remote Branch (i recommend to delete it from the Git web service like Github)
 > git push [remotename] :[branch]
+> example: git push origin :serverfix
 
 Move to another branch
 > git checkout (branch name)
-> example: git push origin :serverfix
 
 Updating branch
 > git pull
