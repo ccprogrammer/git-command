@@ -19,13 +19,16 @@ This will update your branch with your code that has been updated, it will only 
 ### # Branch, Create Read Delete
 ```
 Adding new branch
-1. git branch <branch_name>
+> git branch <branch_name>
 
 To see all branch
-2. git branch / git branch -a
+> git branch / git branch -a
+
+Delete branch
+> git branch -D (branch name)
 
 Show all commit in branch
-3. git log --oneline
+> git log --oneline
 
 ```
 
