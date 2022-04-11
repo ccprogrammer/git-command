@@ -22,7 +22,7 @@ To see all branch
 Delete Local Branch
 > git branch -D (branch name)
 
-Delete Remote Branch (i recommend to delete it from the Git web service like Github)
+Delete Remote Branch (i recommend to delete it from the Git version control / web service like Github)
 > git push [remotename] :[branch]
 > example: git push origin :serverfix
 
@@ -38,8 +38,15 @@ Cancel all modified file
 Merge branch with another branch (must be in the branch that you want to recieve a merge from another branch)
 > git merge/rebase (branch name)
 
+Reverting to spesific commit (remove speific commit)
+> git revert (commit id)
+> 
+
 Show all commit in branch
 > git log --oneline
+
+Annoying ':' after running some command to cancel it just enter
+> wq
 
 ```
 
