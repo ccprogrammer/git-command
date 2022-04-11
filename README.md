@@ -24,6 +24,9 @@ Adding new branch
 To see all branch
 2. git branch / git branch -a
 
+Show all commit in branch
+3. git log --oneline
+
 ```
 
 #### # Move to spesific branch 
