@@ -19,11 +19,15 @@ Adding new branch
 To see all branch
 > git branch / git branch -a
 
-Delete branch
+Delete Local Branch
 > git branch -D (branch name)
+
+Delete Remote Branch (i recommend to delete it from the Git web service like Github)
+> git push [remotename] :[branch]
 
 Move to another branch
 > git checkout (branch name)
+> example: git push origin :serverfix
 
 Updating branch
 > git pull
