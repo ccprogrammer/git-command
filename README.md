@@ -22,10 +22,6 @@ To see all branch
 Delete Local Branch
 > git branch -D (branch name)
 
-Delete Remote Branch (i recommend to delete it from the Git version control / web service like Github)
-> git push [remotename] :[branch]
-> example: git push origin :serverfix
-
 Move to another branch
 > git checkout (branch name)
 
@@ -35,15 +31,24 @@ Updating branch
 Cancel all modified file
 > git checkout -- .
 
+Show all commit in branch
+> git log --oneline
+
+# More explanatory
+
 Merge branch with another branch (must be in the branch that you want to recieve a merge from another branch)
 > git merge/rebase (branch name)
 
+Reset/go back to the commit you select and the commit after the selected commit is deleted
+> git reset (commit id)           //all code remain in the code editor
+> git reset (commit id) --hard    //all code remove/reset back to the commit selected
+
 Reverting to spesific commit (remove speific commit)
 > git revert (commit id)
-> 
 
-Show all commit in branch
-> git log --oneline
+Delete Remote Branch (i recommend to delete it from the Git version control / web service like Github)
+> git push [remotename] :[branch]
+> example: git push origin :serverfix
 
 Annoying ':' after running some command to cancel it just enter
 > wq
