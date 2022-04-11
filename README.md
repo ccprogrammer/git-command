@@ -62,6 +62,7 @@ Annoying ':' after running some command to cancel it just enter
 What is forking? it is copying other people repo with all the history to our repo it's just like making new repo but the repo is from other people repo. To do it just press 'Fork' in the repo you want to fork
 
 #### # Add new branch from Github Website
+If you want to add new branch from another branch, just select the branch first then add new branch
 ![image](https://user-images.githubusercontent.com/90954993/162657746-d4e99e72-5b77-403b-98f5-fcdb13f18af1.png)
 
 
